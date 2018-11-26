@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FilmesFamosos</string>
+    <string name="popular">Popular</string>
+    <string name="topRated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading…</string>
+    <string name="popularMovies">Popular Movies</string>
+    <string name="topRatedMovies">Top Rated Movies</string>
+    <string name="favoriteMovies">Favorite Movies</string>
+    <string name="wasAddFavorites">was added in your favorite list</string>
+    <string name="wasRemovedFavorites">was removed of your favorite list</string>
+    <string name="norReviews">No reviews available</string>
+    <string name="refresh">Refresh</string>
+    <string name="internetNotWorking">Please, make sure your internet is working to run this app.</string>
+    <string name="content_description_iv_border">retangle border for Description movie screen</string>
+    <string name="content_description_poster">Poster for current movie</string>
+    <string name="content_description_add_favorite_icon">Press this button to add a favorite movie to your favorite list</string>
+    <string name="content_description_remove_favorite_icon">Press this button to remove a favorite movie to your favorite list</string>
+    <string name="content_description_date_picker_icon">Date picker icon</string>
+    <string name="content_description_rating_icon">Rating icon</string>
+    <string name="trailer1">trailer1</string>
+    <string name="trailer2">trailer2</string>
+    <string name="trailer3">trailer3</string>
+    <string name="errorYoutubeIntent">Please make sure your youtube app is working</string>
+</resources>

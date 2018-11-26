@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@drawable/ic_popular"
+            android:title="@string/popular" />
+        <item
+            android:id="@+id/nav_topRated"
+            android:icon="@drawable/ic_baseline_video_label_24px"
+            android:title="@string/topRated" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorites" />
+    </group>
+</menu>

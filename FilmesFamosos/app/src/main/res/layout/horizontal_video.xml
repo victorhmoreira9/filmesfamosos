@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    android:id="@+id/layout_horizontal_trailers"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_trailer1"
+                android:layout_width="97dp"
+                android:background="@color/maincolor"
+                android:layout_height="90dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/trailer1"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_trailer2"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:visibility="gone"
+                android:background="@color/maincolor"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/btn_trailer1"
+                android:text="@string/trailer2"
+                app:layout_constraintStart_toEndOf="@+id/btn_trailer1"
+                tools:layout_editor_absoluteY="0dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/btn_trailer3"
+                android:layout_width="100dp"
+                android:background="@color/maincolor"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:visibility="gone"
+                android:layout_marginStart="16dp"
+                android:text="@string/trailer3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_trailer2"
+                tools:layout_editor_absoluteY="0dp"
+                tools:ignore="MissingConstraints" />
+
+        </android.support.constraint.ConstraintLayout>
+    </HorizontalScrollView>
+</layout>
